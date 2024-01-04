@@ -50,8 +50,8 @@ clf = clf.fit(X_pca, Y)
 print("Best estimator found by grid search: ")
 print(clf.best_estimator_)
 test = []
-path ="TestSet/data1.jpg"
-p = "TestSet/data1.jpg"
+path = "TestSet/test.jpg"
+p = "TestSet/test.jpg"
 testImage = path
 
 testImage=cv2.imread(testImage)
